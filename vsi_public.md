@@ -18,6 +18,7 @@ lastupdated: "2017-10-24"
 
 # Public virtual servers
 The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi-tenant virtual server deployments. They give you rapid scalability and higher-cost effectiveness with pre-defined sizes that meet all business requirements to get you up and running quickly.  Public virtual servers have many advantages, including the following:
+{:shortdesc}
 
 * **Global availability** 
 
@@ -27,10 +28,9 @@ The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi
 
     The public virtual server offering gives you small or large virtual server options to meet various workload requirements.
 
-**Note:** If you are looking for a single-tenant environment, consider the [Dedicated virtual server](../vsi/vsi_dedicated.html) offering.
-{:shortdesc}
+Public instances reside on a hypervisor that is shared with other clients; however, the processors and memory are dedicated to the virtual server, making server performance reliable.
 
-Public instances reside on a hypervisor that is shared with other clients; however, the processors and memory are dedicated to the virtual server, making server performance reliable. 
+Network traffic for public virtual servers, which encompasses VSI SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance may be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](../vsi/vsi_dedicated.html) offering.
 
 The following public virtual servers are available. 
 
